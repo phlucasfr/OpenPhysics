@@ -1,0 +1,107 @@
+# =====================
+# Rust
+# =====================
+/target/
+**/*.rs.bk
+
+# Cargo related
+/Cargo.lock
+/.cargo/
+.cargo/
+
+# Rust build scripts
+build.rs
+
+# Rust coverage tools
+htmlcov/
+*.profraw
+*.profdata
+
+# Clippy
+.clippy/
+
+# =====================
+# Python
+# =====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.eggs/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+.eggs/
+sdist/
+*.egg
+MANIFEST
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+pylint-report.txt
+pylint-global.txt
+
+# Pyre
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# =====================
+# OS / Editor / Misc
+# =====================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# =====================
+# Optional
+# =====================
+# If you're using Poetry (Python)
+poetry.lock
+
+# If you're using Pipenv
+Pipfile.lock
+
+# If you use Rust with wasm-pack
+pkg/
