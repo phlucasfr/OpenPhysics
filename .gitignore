@@ -1,107 +1,91 @@
 # =====================
 # Rust
 # =====================
-/target/
+**/target/
 **/*.rs.bk
-
-# Cargo related
-/Cargo.lock
-/.cargo/
-.cargo/
-
-# Rust build scripts
-build.rs
-
-# Rust coverage tools
-htmlcov/
-*.profraw
-*.profdata
-
-# Clippy
-.clippy/
+**/Cargo.lock
 
 # =====================
 # Python
 # =====================
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
 
 # Virtual environments
-.venv/
-venv/
-ENV/
-env/
-*.egg-info/
-.eggs/
+**/.venv/
+**/venv/
+**/ENV/
+**/env/
+**/*.egg-info/
+**/.eggs/
 
 # Distribution / packaging
-build/
-develop-eggs/
-dist/
-downloads/
-.eggs/
-sdist/
-*.egg
-MANIFEST
+**/build/
+**/develop-eggs/
+**/dist/
+**/downloads/
+**/.eggs/
+**/sdist/
+**/*.egg
+**/MANIFEST
 
 # PyInstaller
-*.spec
+**/*.spec
 
 # Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
+**/htmlcov/
+**/.tox/
+**/.nox/
+**/.coverage
+**/.coverage.*
+**/.cache
+**/nosetests.xml
+**/coverage.xml
+**/*.cover
+**/*.py,cover
 
 # MyPy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+**/.mypy_cache/
+**/.dmypy.json
+**/dmypy.json
 
 # Pylint
-pylint-report.txt
-pylint-global.txt
+**/pylint-report.txt
+**/pylint-global.txt
 
 # Pyre
-.pyre/
+**/.pyre/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+**/.ipynb_checkpoints/
 
 # =====================
 # OS / Editor / Misc
 # =====================
-.DS_Store
-Thumbs.db
-*.swp
-*.swo
-*.bak
-*.tmp
-*.log
-*.sqlite3
+**/.DS_Store
+**/Thumbs.db
+**/*.swp
+**/*.swo
+**/*.bak
+**/*.tmp
+**/*.log
+**/*.sqlite3
 
 # VSCode
-.vscode/
+**/.vscode/
 
 # JetBrains
-.idea/
+**/.idea/
 
 # =====================
 # Optional
 # =====================
-# If you're using Poetry (Python)
-poetry.lock
+# Poetry
+**/poetry.lock
 
-# If you're using Pipenv
-Pipfile.lock
+# Pipenv
+**/Pipfile.lock
 
-# If you use Rust with wasm-pack
-pkg/
+# wasm-pack
+**/pkg/

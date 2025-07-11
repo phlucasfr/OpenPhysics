@@ -1,3 +1,6 @@
+mod mechanics;
+mod models;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, physicx!");
 }
