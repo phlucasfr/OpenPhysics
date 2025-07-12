@@ -12,7 +12,7 @@ pub async fn calculate(ExtractJson(params): ExtractJson<DistanceParams>) -> Resu
             Json(ApiResponse {
                 success: true,
                 data: Some(distance),
-                message: Some("Distância de Manhattan calculada.".to_string()),
+                message: Some("manhattan_distance".to_string()),
             }),
         )),
         Err(msg) => Err((
