@@ -1,7 +1,7 @@
 use axum::{routing::post, Router};
 
-use crate::controllers::mechanics;
+use crate::controllers::manhattan_distance;
 
 pub fn router() -> Router {
-    Router::new().route("/", post(mechanics::calculate))
+    Router::new().route("/", post(manhattan_distance::calculate))
 }

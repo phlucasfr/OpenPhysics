@@ -1,1 +1,1 @@
-pub mod mechanics;
+pub mod manhattan_distance;
