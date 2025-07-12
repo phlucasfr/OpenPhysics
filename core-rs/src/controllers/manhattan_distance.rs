@@ -10,7 +10,6 @@ pub async fn calculate(ExtractJson(params): ExtractJson<DistanceParams>) -> Resu
         Ok(distance) => Ok((
             StatusCode::OK,
             Json(ApiResponse {
-                success: true,
                 data: Some(distance),
                 message: Some("manhattan_distance".to_string()),
             }),
@@ -18,7 +17,6 @@ pub async fn calculate(ExtractJson(params): ExtractJson<DistanceParams>) -> Resu
         Err(msg) => Err((
             StatusCode::BAD_REQUEST,
             Json(ApiResponse::<()> {
-                success: false,
                 data: None,
                 message: Some(msg),
             }),
